@@ -1,0 +1,18 @@
+#Program that converts weight in lbs or kgs to opposite 
+
+def lbs_kgs(weight): 
+    weight = input("What is your weight")
+    weight = float(weight)
+    spec = input("(L)bs) or (K)gs")
+    if spec.upper() == 'L': 
+        new_weight = weight * 0.45
+        new_weight = str(new_weight)
+        print("You are " + new_weight + " Kilograms")
+    elif spec.upper() == 'K': 
+        new_weight = weight * 2.204
+        new_weight = str(new_weight)
+        print("You are " + new_weight + " Pounds")
+    return weight
+    
+lbs_kgs(40)
+    
