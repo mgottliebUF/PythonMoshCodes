@@ -1,0 +1,14 @@
+#Printing a list of pre-assigned values.
+a = int(3)
+b = int(4)
+c = int(6)
+d = int(7)
+
+i = [a, b, c, d]
+
+
+for numbers in i:
+        print("*" * numbers)
+        
+        
+print("done")
