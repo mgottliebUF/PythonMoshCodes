@@ -1,0 +1,13 @@
+#list practice and methods
+
+numbers = [5, 2, 1, 5, 7, 5, 4]
+numbers.insert(0, 10)
+print(numbers)
+numbers.remove(5) # removes 5 from front 
+print(numbers)
+numbers.append(13) #Adds 13 to end of the list
+print(numbers) 
+print(numbers.index(5)) #Determines index of the number 5 (first instance) #Computer output will respond with a Boolean
+print(numbers.count(5)) #Counts the number of 5's in a list 
+call = numbers.sort()
+print(call)
