@@ -1,0 +1,13 @@
+#Program that removes the duplicates in a list
+
+numbers = [2, 2, 4, 6, 2, 4, 6, 1]
+
+#define a second list called "uniques"
+uniques = [] 
+
+#for loop that iterates over a list 
+for number in numbers: 
+    #2 parts: number not in uniques,
+    if number not in uniques: 
+        uniques.append(number)
+print(uniques)
