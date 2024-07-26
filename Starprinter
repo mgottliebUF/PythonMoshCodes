@@ -1,0 +1,7 @@
+i = 1  #initialization of i 
+while i > 5: #while loop 
+  print('*' * i) #printing statement
+  i = i + 1  #increment
+print("done")
+  
+  
